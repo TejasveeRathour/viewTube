@@ -175,7 +175,7 @@ const SwitchLink = styled.p`
   }
 `;
 
-const LoginForm = () => {
+const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
 
   const toggleForm = () => {
@@ -207,4 +207,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default Login;
